@@ -2,7 +2,7 @@
 
 int main(){
     int cambio;
-    
+        
     do
     {
         printf("\nIngrese la cantidad de centavos de cambio: \n");
@@ -27,4 +27,5 @@ int main(){
     printf("\nDe esas %i monedas, %i de ellas son en centavos de 5\n", total_centavos, centavos5);
     printf("\nDe esas %i monedas, %i de ellas son en centavos de 1\n", total_centavos, centavos1);
     return 0;
+
 }
